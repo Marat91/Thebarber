@@ -1,0 +1,126 @@
+@import "_vars"
+
+/*==========  Desktop First  ==========*/
+@media only screen and (max-width : 3000px)
+	.mobile-mnu
+		display: none
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.mobile-mnu
+		display: none
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.mobile-mnu
+		display: none
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	body
+			nav
+				ul
+					display: none
+					li
+						display: block
+						text-align: center
+				a
+					border-bottom: 1px solid #f8ecc2
+			.menu-trigger
+				display: block
+				border-bottom: 1px solid #f8ecc2
+				color: #f8ecc2
+				text-decoration: none
+	.mobile-mnu
+		display: block
+	.header-menu
+		display: none
+@media only screen and (max-width : 700px)
+	body
+		.crew-columns
+			margin-top: 50px
+			.flex-wrap
+				align-items: center
+				display: flex
+				justify-content: center
+				.crew-item
+					width: 100%
+					h3
+						margin-top: 20px
+					p
+						margin: 0
+		.product-items
+			.container
+			.flex
+				margin: 0
+				display: flex
+				flex-direction: column
+				.product-logo
+					display: flex
+					justify-content: center
+				.product-info
+					p
+						padding: 0 20px
+					.panel-title
+						padding: 0
+						margin: 0
+		.price-sect
+			.flex-wrap
+				flex-direction: column
+				align-items: center
+				width: 100%
+				.column-price
+					width: 100%
+	body
+		.product-items 
+			.container 
+				.product-logo 
+					img
+						padding: 0
+						width: 200px
+						height: 200px
+	/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	body
+		.main-content	
+			.img-blade
+				img
+					width: 200px
+					height: auto
+		.formsection
+			margin-top: 40px
+			.container
+				background-color: #444444
+				text-align: center
+				form
+					grid-template-columns: repeat(1, 2fr)
+					label
+						grid-column: 1 / 2
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
